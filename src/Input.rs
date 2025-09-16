@@ -96,7 +96,7 @@ pub fn input() { //function for option 2 on main.rs
     // tira zeros e ponto supérfluos
     s = s.trim_end_matches('0').trim_end_matches('.').into();
     // devolve o último carácter
-    s.chars().last().unwrap_or('0')                        // fallback em caso extremo
+    s.chars().last().unwrap_or('0')                        // fallback in extreme cases
 }
 
 // exemplo de uso dentro do teu código
